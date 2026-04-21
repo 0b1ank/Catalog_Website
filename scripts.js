@@ -390,7 +390,7 @@ function editZonaiCardContent(card, newDevice, newDeviceName, newImageURL, maxLi
 }
 
 function showLogisticsReport() {
-  let message = "--- SHOPPING LIST ---\n";
+  let message = "--- NUMBER OF DEVICES ---\n";
 
   let deviceMap = numOfDevicesInConstruct();
   for (let [name, count] of deviceMap) {
